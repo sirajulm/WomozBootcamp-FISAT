@@ -143,7 +143,7 @@
   }
 
   #home {
-    margin-top: 10%;
+    margin-top: 60px;
   }
 
   #main-slider .carousel-caption {
@@ -294,7 +294,7 @@
   /* Home */
 
   #home {
-    margin-top: 18%;
+    margin-top:60px;
   }
 
   .fixed-menu .container {
@@ -449,3 +449,10 @@
 
 }
 
+@media (max-width:500px)
+{
+    #home .carousel-caption{
+        max-width: 100%;
+        bottom: 0%;
+    }
+}
